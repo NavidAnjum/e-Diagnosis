@@ -1,0 +1,19 @@
+/*my custom stylesheet*/
+
+@media screen and (min-width: 992px) {
+  .custom-margin20
+  {
+	margin-left: 20%;
+  }
+}
+
+body
+{
+    background: white;
+    color: #03a9f4;
+}
+
+.navbar.navbar-transparent
+{
+    color: #03a9f4;
+}
