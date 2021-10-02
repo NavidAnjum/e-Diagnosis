@@ -72,8 +72,5 @@ class LoginController extends Controller
                 ->with('error','Email-Address And Password Are Wrong.');
 
         }
-
-
-
     }
 }
