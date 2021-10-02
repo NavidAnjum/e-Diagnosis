@@ -10,16 +10,12 @@ use App\Http\Controllers\WelbeingController;
 Route::get('/medicine_form','\App\Http\Controllers\MedicineController@index');
 Route::post('/save_med', [MedicineController::class, 'store'])->name('save_med');
 
-
 Route::get('/babycare_form',[BabycareController::class,'index']);
 Route::post('/babycare',[BabycareController::class,'store'])->name('babycare');
-
-
 
 Route::get('/feminine_form',[FeminieHygieneController::class,'index']);
 
 Route::post('/feminine',[FeminieHygieneController::class,'store'])->name('feminine');
-
 
 Route::get('/welbeing_form',[WelbeingController::class,'index']);
 

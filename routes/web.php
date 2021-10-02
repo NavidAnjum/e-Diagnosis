@@ -53,7 +53,8 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-
 Require 'medicine_order_confirmation.php';
 
 Require 'sslcommerz.php';
+
+Require 'admin.php';
